@@ -12,4 +12,22 @@ conda env create -f environment.yml
 
 ## Get started
 
-Read the code in `code`, this repository contains a sample dataset for modelling epidemic transmission across multiple population. 
+Read the notebook in `code`, which contains a sample for modelling epidemic transmission across multiple countries using metapopulation SIR model.
+
+- `objs/` contains dictionaries storing the transmission between different metapopulation. Provide samples of aviation transmisstion of 100 countries.
+- `data/` contains the population and cumulative confirmed cases of COVID-19 of each metapopulation.
+
+## References
+
+Related paper of this model. 
+
+```
+@inproceedings{wang2018inferring,
+  title={Inferring metapopulation propagation network for intra-city epidemic control and prevention},
+  author={Wang, Jingyuan and Wang, Xiaojian and Wu, Junjie},
+  booktitle={Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+  pages={830--838},
+  year={2018}
+}
+```
+
