@@ -12,7 +12,7 @@ conda env create -f environment.yml
 
 ## Get started
 
-Read the notebook in `code`, which contains a sample for modelling epidemic transmission across multiple countries using metapopulation SIR model.
+Read the notebook in `code/`, which contains a sample for modelling epidemic transmission across multiple countries using metapopulation SIR model. Key points are commented in code. Other directories are functioned as 
 
 - `objs/` contains dictionaries storing the transmission between different metapopulation. Provide samples of aviation transmisstion of 100 countries.
 - `data/` contains the population and cumulative confirmed cases of COVID-19 of each metapopulation.
